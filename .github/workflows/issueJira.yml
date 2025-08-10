@@ -23,5 +23,7 @@ jobs:
         issuetype: Task
         summary: '${{ github.event.issue.title }}'
         description: | 
-          GitHub Issue URL: '${{ github.event.issue.html_url }}'
-          GitHub Issue Body: '${{ github.event.issue.body }}'
+          GitHub Issue URL: ${{ github.event.issue.html_url }}
+          
+          ---
+          ${{ github.event.issue.body }}
