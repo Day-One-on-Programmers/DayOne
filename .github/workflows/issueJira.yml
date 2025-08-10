@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     # ##를 h2로 치환
     steps:
+    - name: Login
+      uses: atlassian/gajira-login@v3 
+      env: 
+        JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+        JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
     - name: Replace markdown headers in issue body
       id: convert
       run: |
