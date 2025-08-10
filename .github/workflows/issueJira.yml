@@ -22,4 +22,9 @@ jobs:
         project: DOOP
         issuetype: Task
         summary: '${{ github.event.issue.title }}'
-        description: '${{ github.event.issue.html_url }}'
+        description: | 
+        GitHub Issue URL: '${{ github.event.issue.html_url }}'
+        
+        ---
+        GitHub Issue Body:
+        '${{ github.event.issue.body }}'
