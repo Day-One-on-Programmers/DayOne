@@ -32,8 +32,7 @@ jobs:
         summary: "${{ github.event.issue.title }}"
         description: |
           ${{ steps.convert.outputs.converted_body }}
-
-          ---
+          
           GitHub Issue URL: ${{ github.event.issue.html_url }}
           
           
