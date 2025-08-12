@@ -1,4 +1,4 @@
-package com.back;
+package com.back.week01;
 
 public class M1 {
     public static void main(String[] args) {
