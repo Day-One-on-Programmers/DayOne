@@ -1,0 +1,18 @@
+package com.back.week01;
+
+public class M14 {
+    /**
+     for문을 이용해서 1부터 30까지 중에서 3의 배수 숫자들의 합을 구해보세요.
+     - 결과값은 result 변수에 저장하세요.
+     */
+    public static void main(String[] args) {
+        int result = 0;
+
+        // for문을 작성하세요.
+        for(int i = 3; i <= 30; i += 3){
+            result += i;
+        }
+
+        System.out.println(result);
+    }
+}
