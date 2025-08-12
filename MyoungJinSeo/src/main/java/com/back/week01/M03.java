@@ -1,6 +1,6 @@
 package com.back.week01;
 
-public class M3 {
+public class M03 {
     public static void main(String[] args) {
 
         int intValue = 123456;

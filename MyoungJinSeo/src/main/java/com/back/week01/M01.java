@@ -1,6 +1,6 @@
 package com.back.week01;
 
-public class M1 {
+public class M01 {
     public static void main(String[] args) {
         /*
         main 함수는 자바 프로그램의 시작점입니다.

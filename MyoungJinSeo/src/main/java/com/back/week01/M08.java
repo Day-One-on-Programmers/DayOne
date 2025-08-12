@@ -1,6 +1,6 @@
 package com.back.week01;
 
-public class M8 {
+public class M08 {
     public static void main(String[] args) {
         int a = 5;
         int b = 2;

@@ -1,6 +1,6 @@
 package com.back.week01;
 
-public class M2 {
+public class M02 {
     public static void main(String[] args) {
         // 타입은 int, 변수명은 value로 선언하고, 값은 12로 대입해보세요.
 

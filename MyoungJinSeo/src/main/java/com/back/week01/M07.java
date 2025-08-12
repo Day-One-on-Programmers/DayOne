@@ -1,6 +1,6 @@
 package com.back.week01;
 
-public class M7 {
+public class M07 {
     public static void main(String[] args) {
         int x = 10;
         x = --x;
