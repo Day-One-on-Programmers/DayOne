@@ -1,16 +1,24 @@
 package com.back.week01;
 
-public class M34 {
-    /**
-     * 클래스 상수를 선언하세요. (static final 활용)
-     * - 필드명은 MAX_RPM
-     * - 정수 타입으로 선언하고 값은 300으로 초기화합니다.
-     */
-    static final int MAX_RPM = 300;
+public class M34 extends Car4{
 
+        public static void main(String[] args) {
+            // GenesisCar 클래스로부터 인스턴스를 생성해서 변수로 선언합니다.
+            M34 car = new M34();
 
-    // 아래는 결과 평가를 위한 코드입니다. 수정하지 마세요.
-    public static void main(String[] args) {
-        System.out.println(M34.MAX_RPM);
+            // 상속받은 부모클래스의 turnOn메소드를 호출합니다.
+
+            car.turnOn();
+        }
+
+}
+
+class Car4 {
+    void turnOn() {
+        System.out.println("엔진을 켰습니다");
+    }
+
+    void turnOff() {
+        System.out.println("엔진을 껐습니다");
     }
 }
