@@ -11,6 +11,6 @@ public class M33 {
 
     // 아래는 결과 평가를 위한 코드입니다. 수정하지 마세요.
     public static void main(String[] args) {
-        System.out.println(M34.MAX_RPM);
+        System.out.println(M33.MAX_RPM);
     }
 }
