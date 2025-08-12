@@ -2,26 +2,15 @@ package com.back.week01;
 
 public class M33 {
     /**
-     1. 정적 필드를 선언합니다.
-     - 필드명은 unit이고 String클래스로 선언하세요.
-     - 필드값은 "rpm" 문자열로 초기화하세요.
+     * 클래스 상수를 선언하세요. (static final 활용)
+     * - 필드명은 MAX_RPM
+     * - 정수 타입으로 선언하고 값은 300으로 초기화합니다.
      */
-    static String unit = "rpm";
+    static final int MAX_RPM = 300;
 
-    /**
-     2. 정적 메소드를 선언합니다.
-     - 메소드명은 getUnit이고 매개변수 없이 선언하세요.
-     - 메소드에서는 1번에서 선언한 필드를 결과값으로 반환합니다.
-     */
-    static String getUnit(){
-        return unit;
-    }
 
+    // 아래는 결과 평가를 위한 코드입니다. 수정하지 마세요.
     public static void main(String[] args) {
-        // Car 클래스의 정적 필드 unit을 출력합니다.
-        System.out.println(M33.unit);
-
-        // Car 클래스의 정적 메소드를 호출해서 반환되는 결과값을 출력합니다.
-        System.out.println(M33.getUnit());
+        System.out.println(M34.MAX_RPM);
     }
 }
