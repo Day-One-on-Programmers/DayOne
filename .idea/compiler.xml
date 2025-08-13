@@ -2,8 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="KyungWonPark" target="21" />
       <module name="KyungWonPark.KyungWonPark" target="21" />
+      <module name="KyungWonPark.KyungWonPark.main" target="21" />
+      <module name="KyungWonPark.KyungWonPark.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
