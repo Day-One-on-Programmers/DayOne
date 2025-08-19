@@ -3,7 +3,7 @@ package com.back.week02;
 import java.util.HashMap;
 import java.util.Map;
 
-public class M6 {
+public class M06 {
     public static void main(String[] args) {
         String[][] arr = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
         System.out.println(solution(arr));

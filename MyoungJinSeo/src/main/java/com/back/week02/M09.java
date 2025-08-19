@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class M9 {
+public class M09 {
     public static void main(String[] args) {
         String[] strArr = {"tank","kick","wheel","land","dream","mother","robot","tank"};
         System.out.println(solution(strArr));;

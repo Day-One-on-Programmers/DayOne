@@ -2,7 +2,7 @@ package com.back.week02;
 
 import java.util.Arrays;
 
-public class M3 {
+public class M03 {
     public static void main(String[] args) {
         int[] arr = {4,1,3,2};
         System.out.println(solution(arr));

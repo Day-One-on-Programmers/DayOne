@@ -2,7 +2,7 @@ package com.back.week02;
 
 import java.util.Arrays;
 
-public class M1 {
+public class M01 {
     public static void main(String[] args) {
         int n = 12345;
         System.out.println(Arrays.toString(solution(n)));

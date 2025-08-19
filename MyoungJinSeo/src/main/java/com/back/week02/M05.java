@@ -3,7 +3,7 @@ package com.back.week02;
 import java.util.HashMap;
 import java.util.Map;
 
-public class M5 {
+public class M05 {
     public static void main(String[] args) {
         String[] strArr = {"leo", "kiki", "eden"};
         String[] strArr1 = {"kiki", "eden"};

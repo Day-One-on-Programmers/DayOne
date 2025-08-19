@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class M8 {
+public class M08 {
     public static void main(String[] args) {
         int [] arr = {4,7,32,43,22,19};
         System.out.println(solution(arr));
